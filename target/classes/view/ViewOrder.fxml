@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="286.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bio.harshana.burger_shop.controller.ViewOrderController">
+   <children>
+      <AnchorPane prefHeight="58.0" prefWidth="322.0" style="-fx-background-color: #74b9ff;">
+         <children>
+            <Label layoutX="87.0" layoutY="10.0" text="View Orders">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnAllOrders" layoutX="21.0" layoutY="96.0" mnemonicParsing="false" onAction="#allOrdersOnAction" prefHeight="26.0" prefWidth="281.0" text="View All Orders" />
+      <Button fx:id="btnAllCustomers" layoutX="21.0" layoutY="143.0" mnemonicParsing="false" onAction="#allCustomersOnAction" prefHeight="26.0" prefWidth="281.0" text="View All Customers" />
+      <Button fx:id="btnViewOrder" layoutX="21.0" layoutY="199.0" mnemonicParsing="false" onAction="#viewOrderOnAction" prefHeight="26.0" prefWidth="281.0" text="View Order" />
+   </children>
+</AnchorPane>
